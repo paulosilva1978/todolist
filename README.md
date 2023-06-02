@@ -54,10 +54,18 @@ nvm install-latest-npm
 
 # Executando o projeto
 
+- Caso ainda não tenho o git instalado: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener noreferrer">git - Instruções para instalação</a>
+
 - Clone ou faça download deste repositório
 
+```sh
+git clone https://github.com/paulosilva1978/todolist
+```
 - Entre no diretório do projeto
 
+```sh
+cd todolist
+```
 - Execute os comandos:
 
 ```sh
@@ -70,7 +78,7 @@ npm start
 
 - Caso esteja no ios, escaneie o QR Code com sua camera ou no app <a href="https://itunes.apple.com/app/apple-store/id982107779" target="_blank" rel="noopener noreferrer">Expo Go</a>
 
-- Caso esteja no android, escaneie o QR Code no app <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank" rel="noopener noreferrer">Expo Go</a> ou conecte o aparelho celular pelo cabo usb
+- Caso esteja no android, escaneie o QR Code no app <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank" rel="noopener noreferrer">Expo Go</a> ou conecte o aparelho celular pelo cabo usb (ou emulador android <a href="https://react-native.rocketseat.dev/virtual-devices/android-emulator">seguindo estes passos</a>) e pressione a letra "a" para selecionar a opção: "a │ open Android". Dica: caso você tenha o emulador e o cabo usb ligado em um celular ao mesmo tempo, pressionando "shift+A" você pode escolher em qual device android você deseja executar a aplicação, se no emulador ou no aparelho físico.
 
 
 # Contato

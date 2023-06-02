@@ -14,11 +14,6 @@ import { CheckBox } from 'react-native-elements'
 import ClipBoard from '../../assets/clipboard.svg'
 import dayjs from 'dayjs'
 import { LinearGradient } from 'expo-linear-gradient'
-import {
-  useFonts,
-  Inter_400Regular,
-  Inter_700Bold,
-} from '@expo-google-fonts/inter'
 
 interface Tarefas {
   id: any
@@ -78,14 +73,6 @@ export function Form() {
   const tarefaOrganizada = [...tarefaIncompleta, ...tarefaCompleta]
 
   const [estaSelecionado, setEstaSelecionado] = useState(false)
-
-  const [fontsLoaded] = useFonts({
-    Inter_400Regular,
-    Inter_700Bold,
-  })
-  if (!fontsLoaded) {
-    return // não estava carregando a fonte Inter, acabei usando esta opção para funcionar :c)
-  }
 
   return (
     <View style={styles.container}>
